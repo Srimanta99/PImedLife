@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".screen.IntroActivity">
+
+<Button
+    android:id="@+id/btn_letsStart"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    app:layout_constraintBottom_toBottomOf="parent"
+
+    android:layout_margin="@dimen/_12sdp"
+    android:text="LET'S GET STARTED"
+    android:background="@drawable/blue_rounded_background"></Button>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_letsStart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_letsStart"
+        android:layout_marginBottom="@dimen/_60sdp"
+      />
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:piv_animationType="scale"
+        app:piv_dynamicCount="true"
+        app:piv_interactiveAnimation="true"
+        app:piv_selectedColor="@color/purple_500"
+        app:piv_unselectedColor="@android:color/darker_gray"
+        app:piv_viewPager="@id/myViewPager"
+        app:layout_constraintBottom_toTopOf="@+id/btn_letsStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        attrs:piv_padding="12dp"
+        attrs:piv_radius="8dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

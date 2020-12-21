@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/footer_home_icon"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/footer_stock_icon"
+        android:title="Orders"/>
+
+    <item
+        android:id="@+id/Subcription"
+        android:icon="@drawable/checks"
+        android:title="Subcription"/>
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/footer_myaccount_icon"
+        android:title="Account"/>
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/footer_contact_icon"
+        android:title="Wallet"/>
+</menu>

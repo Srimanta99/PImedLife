@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "67616054062",
+    "project_id": "pimedlife-14b1a",
+    "storage_bucket": "pimedlife-14b1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67616054062:android:5eacb4c504d0c2fc2238bf",
+        "android_client_info": {
+          "package_name": "com.pimedlife.pimedlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67616054062-p8utre9q00cp87sohj6vudf1t1n77ag5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pimedlife.pimedlife",
+            "certificate_hash": "94972dce59d00927e37162acdd0a6982488351ec"
+          }
+        },
+        {
+          "client_id": "67616054062-nmqiu8gf2ivlrd7padqgec5m3rrcai4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiS8MRWeBqxtAGkAx2xW1oHyWyFh31TtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67616054062-nmqiu8gf2ivlrd7padqgec5m3rrcai4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
